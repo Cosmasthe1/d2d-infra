@@ -1,0 +1,32 @@
+{
+ "A": {
+  "name": "A: platform on partner capacity",
+  "peak_funding_need_usd_m": 0.58,
+  "month60_revenue_usd_m": 3.84,
+  "month60_devices": 40000,
+  "first_operating_positive_month": 37,
+  "month60_cum_cash_usd_m": -0.19,
+  "gross_margin_m60": 0.25,
+  "price_usd_m60": 8.0
+ },
+ "B": {
+  "name": "B: + 6U demo + consortium stake",
+  "peak_funding_need_usd_m": 11.27,
+  "month60_revenue_usd_m": 5.89,
+  "month60_devices": 150000,
+  "first_operating_positive_month": 26,
+  "month60_cum_cash_usd_m": -9.56,
+  "gross_margin_m60": 0.45,
+  "price_usd_m60": 3.27
+ },
+ "C": {
+  "name": "C: own constellation",
+  "peak_funding_need_usd_m": 63.57,
+  "month60_revenue_usd_m": 9.6,
+  "month60_devices": 400000,
+  "first_operating_positive_month": 26,
+  "month60_cum_cash_usd_m": -58.96,
+  "gross_margin_m60": 0.76,
+  "price_usd_m60": 2.0
+ }
+}

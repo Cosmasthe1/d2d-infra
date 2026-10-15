@@ -1,0 +1,248 @@
+{
+  "coverage": [
+    {
+      "name": "6 sats / 53deg",
+      "sats": 6,
+      "mean_cov_pct": 2.6111111111111107,
+      "mean_gap_min": 124.89448653198654,
+      "worst_gap_min": 253.0
+    },
+    {
+      "name": "12 sats / 53deg",
+      "sats": 12,
+      "mean_cov_pct": 5.215277777777778,
+      "mean_gap_min": 63.619883095970046,
+      "worst_gap_min": 220.5
+    },
+    {
+      "name": "24 sats / 53deg",
+      "sats": 24,
+      "mean_cov_pct": 10.43364197530864,
+      "mean_gap_min": 30.806059146416487,
+      "worst_gap_min": 170.5
+    },
+    {
+      "name": "24 sats / 97.6deg SSO-like",
+      "sats": 24,
+      "mean_cov_pct": 8.390046296296298,
+      "mean_gap_min": 37.12665318680024,
+      "worst_gap_min": 198.0
+    },
+    {
+      "name": "48 sats / 53deg",
+      "sats": 48,
+      "mean_cov_pct": 20.990354938271604,
+      "mean_gap_min": 13.72151992324974,
+      "worst_gap_min": 111.5
+    },
+    {
+      "name": "120 sats / 53deg",
+      "sats": 120,
+      "mean_cov_pct": 50.29668209876543,
+      "mean_gap_min": 4.722383058983569,
+      "worst_gap_min": 42.5
+    }
+  ],
+  "pass_nairobi": {
+    "n_passes_above_10deg_per_day_single_sat": 4,
+    "best_pass_duration_s": 394,
+    "best_pass_max_el_deg": 22.719419492969894,
+    "max_doppler_khz": 34.71640878907136,
+    "max_doppler_rate_hz_per_s": 269.32635528652537,
+    "one_way_delay_ms_min": 3.9868859445321765,
+    "one_way_delay_ms_max": 6.050192419874549,
+    "rtt_ms_max": 12.100384839749099
+  },
+  "link_margin_30deg": [
+    {
+      "service": "NB-IoT (SMS/telemetry)",
+      "payload": "cubesat 0.5 m2",
+      "margin_at_30deg_db": 8.563347901080107,
+      "ul_snr": 9.999740253825536,
+      "dl_snr": 6.563347901080107,
+      "footprint_km_nadir": 126.23760396494497
+    },
+    {
+      "service": "NB-IoT (SMS/telemetry)",
+      "payload": "smallsat 2 m2",
+      "margin_at_30deg_db": 17.594247770999544,
+      "ul_snr": 16.02034016710516,
+      "dl_snr": 15.594247770999544,
+      "footprint_km_nadir": 63.11880198247248
+    },
+    {
+      "service": "NB-IoT (SMS/telemetry)",
+      "payload": "large 25 m2",
+      "margin_at_30deg_db": 28.989440297185723,
+      "ul_snr": 26.989440297185723,
+      "dl_snr": 29.57364785771992,
+      "footprint_km_nadir": 17.85269316087088
+    },
+    {
+      "service": "NB-IoT (SMS/telemetry)",
+      "payload": "very large 200 m2",
+      "margin_at_30deg_db": 38.02034016710516,
+      "ul_snr": 36.02034016710516,
+      "dl_snr": 40.36546031819617,
+      "footprint_km_nadir": 6.311880198247249
+    },
+    {
+      "service": "LTE-M style (1.4 MHz)",
+      "payload": "cubesat 0.5 m2",
+      "margin_at_30deg_db": -2.3452074046692246,
+      "ul_snr": -0.7920722066507153,
+      "dl_snr": -2.3452074046692246,
+      "footprint_km_nadir": 126.23760396494497
+    },
+    {
+      "service": "LTE-M style (1.4 MHz)",
+      "payload": "smallsat 2 m2",
+      "margin_at_30deg_db": 5.22852770662891,
+      "ul_snr": 5.22852770662891,
+      "dl_snr": 6.685692465250213,
+      "footprint_km_nadir": 63.11880198247248
+    },
+    {
+      "service": "LTE-M style (1.4 MHz)",
+      "payload": "large 25 m2",
+      "margin_at_30deg_db": 16.197627836709472,
+      "ul_snr": 16.197627836709472,
+      "dl_snr": 20.665092551970588,
+      "footprint_km_nadir": 17.85269316087088
+    },
+    {
+      "service": "LTE-M style (1.4 MHz)",
+      "payload": "very large 200 m2",
+      "margin_at_30deg_db": 25.22852770662891,
+      "ul_snr": 25.22852770662891,
+      "dl_snr": 31.45690501244684,
+      "footprint_km_nadir": 6.311880198247249
+    },
+    {
+      "service": "LTE QPSK (5 MHz)",
+      "payload": "cubesat 0.5 m2",
+      "margin_at_30deg_db": -9.873627091247016,
+      "ul_snr": -3.802372163290528,
+      "dl_snr": -7.873627091247016,
+      "footprint_km_nadir": 126.23760396494497
+    },
+    {
+      "service": "LTE QPSK (5 MHz)",
+      "payload": "smallsat 2 m2",
+      "margin_at_30deg_db": -0.8427272213275785,
+      "ul_snr": 2.218227749989097,
+      "dl_snr": 1.1572727786724215,
+      "footprint_km_nadir": 63.11880198247248
+    },
+    {
+      "service": "LTE QPSK (5 MHz)",
+      "payload": "large 25 m2",
+      "margin_at_30deg_db": 11.18732788006966,
+      "ul_snr": 13.18732788006966,
+      "dl_snr": 15.136672865392796,
+      "footprint_km_nadir": 17.85269316087088
+    },
+    {
+      "service": "LTE QPSK (5 MHz)",
+      "payload": "very large 200 m2",
+      "margin_at_30deg_db": 20.218227749989097,
+      "ul_snr": 22.218227749989097,
+      "dl_snr": 25.928485325869048,
+      "footprint_km_nadir": 6.311880198247249
+    },
+    {
+      "service": "LTE 16QAM (5 MHz)",
+      "payload": "cubesat 0.5 m2",
+      "margin_at_30deg_db": -19.873627091247016,
+      "ul_snr": -3.802372163290528,
+      "dl_snr": -7.873627091247016,
+      "footprint_km_nadir": 126.23760396494497
+    },
+    {
+      "service": "LTE 16QAM (5 MHz)",
+      "payload": "smallsat 2 m2",
+      "margin_at_30deg_db": -10.842727221327578,
+      "ul_snr": 2.218227749989097,
+      "dl_snr": 1.1572727786724215,
+      "footprint_km_nadir": 63.11880198247248
+    },
+    {
+      "service": "LTE 16QAM (5 MHz)",
+      "payload": "large 25 m2",
+      "margin_at_30deg_db": 1.1873278800696596,
+      "ul_snr": 13.18732788006966,
+      "dl_snr": 15.136672865392796,
+      "footprint_km_nadir": 17.85269316087088
+    },
+    {
+      "service": "LTE 16QAM (5 MHz)",
+      "payload": "very large 200 m2",
+      "margin_at_30deg_db": 10.218227749989097,
+      "ul_snr": 22.218227749989097,
+      "dl_snr": 25.928485325869048,
+      "footprint_km_nadir": 6.311880198247249
+    }
+  ],
+  "required_aperture_30deg_3dB": [
+    {
+      "environment": "outdoor",
+      "service": "NB-IoT (SMS/telemetry)",
+      "min_aperture_m2": 0.0694392815145278
+    },
+    {
+      "environment": "outdoor",
+      "service": "LTE-M style (1.4 MHz)",
+      "min_aperture_m2": 1.1972289916297916
+    },
+    {
+      "environment": "outdoor",
+      "service": "LTE QPSK (5 MHz)",
+      "min_aperture_m2": 4.845099695836564
+    },
+    {
+      "environment": "outdoor",
+      "service": "LTE 16QAM (5 MHz)",
+      "min_aperture_m2": 48.450996958365614
+    },
+    {
+      "environment": "vehicle",
+      "service": "NB-IoT (SMS/telemetry)",
+      "min_aperture_m2": 0.43813224667019046
+    },
+    {
+      "environment": "vehicle",
+      "service": "LTE-M style (1.4 MHz)",
+      "min_aperture_m2": 7.554004252934332
+    },
+    {
+      "environment": "vehicle",
+      "service": "LTE QPSK (5 MHz)",
+      "min_aperture_m2": 30.570512378268276
+    },
+    {
+      "environment": "vehicle",
+      "service": "LTE 16QAM (5 MHz)",
+      "min_aperture_m2": 305.70512378268273
+    },
+    {
+      "environment": "indoor",
+      "service": "NB-IoT (SMS/telemetry)",
+      "min_aperture_m2": 6.943928151452784
+    },
+    {
+      "environment": "indoor",
+      "service": "LTE-M style (1.4 MHz)",
+      "min_aperture_m2": 119.7228991629792
+    },
+    {
+      "environment": "indoor",
+      "service": "LTE QPSK (5 MHz)",
+      "min_aperture_m2": 484.50996958365613
+    },
+    {
+      "environment": "indoor",
+      "service": "LTE 16QAM (5 MHz)",
+      "min_aperture_m2": 2000.0
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+ "contact": [
+  {
+   "orbit": "550 km / 97.6 deg SSO-like",
+   "site": "Nairobi",
+   "passes_per_day": 1.6,
+   "contact_min_per_day": 7.1,
+   "contact_range": "0-11",
+   "best_max_el": 88.7,
+   "msgs_per_day_per_beam": 169,
+   "devices_supported": 42,
+   "payload_energy_wh": 4.1
+  },
+  {
+   "orbit": "550 km / 97.6 deg SSO-like",
+   "site": "Turkana (Lodwar)",
+   "passes_per_day": 1.7,
+   "contact_min_per_day": 7.2,
+   "contact_range": "0-12",
+   "best_max_el": 88.1,
+   "msgs_per_day_per_beam": 171,
+   "devices_supported": 42,
+   "payload_energy_wh": 4.2
+  },
+  {
+   "orbit": "550 km / 97.6 deg SSO-like",
+   "site": "Mombasa",
+   "passes_per_day": 1.9,
+   "contact_min_per_day": 7.4,
+   "contact_range": "3-10",
+   "best_max_el": 68.7,
+   "msgs_per_day_per_beam": 178,
+   "devices_supported": 44,
+   "payload_energy_wh": 4.3
+  },
+  {
+   "orbit": "550 km / 53 deg",
+   "site": "Nairobi",
+   "passes_per_day": 2.2,
+   "contact_min_per_day": 9.1,
+   "contact_range": "4-13",
+   "best_max_el": 87.2,
+   "msgs_per_day_per_beam": 217,
+   "devices_supported": 54,
+   "payload_energy_wh": 5.3
+  },
+  {
+   "orbit": "550 km / 53 deg",
+   "site": "Turkana (Lodwar)",
+   "passes_per_day": 2.1,
+   "contact_min_per_day": 9.5,
+   "contact_range": "6-14",
+   "best_max_el": 80.5,
+   "msgs_per_day_per_beam": 226,
+   "devices_supported": 56,
+   "payload_energy_wh": 5.5
+  },
+  {
+   "orbit": "550 km / 53 deg",
+   "site": "Mombasa",
+   "passes_per_day": 2.2,
+   "contact_min_per_day": 8.7,
+   "contact_range": "6-11",
+   "best_max_el": 89.7,
+   "msgs_per_day_per_beam": 209,
+   "devices_supported": 52,
+   "payload_energy_wh": 5.1
+  },
+  {
+   "orbit": "500 km / 6 deg equatorial-ish",
+   "site": "Nairobi",
+   "passes_per_day": 14.2,
+   "contact_min_per_day": 65.6,
+   "contact_range": "64-69",
+   "best_max_el": 88.8,
+   "msgs_per_day_per_beam": 1573,
+   "devices_supported": 393,
+   "payload_energy_wh": 38.2
+  },
+  {
+   "orbit": "500 km / 6 deg equatorial-ish",
+   "site": "Turkana (Lodwar)",
+   "passes_per_day": 14.2,
+   "contact_min_per_day": 59.5,
+   "contact_range": "58-63",
+   "best_max_el": 88.6,
+   "msgs_per_day_per_beam": 1428,
+   "devices_supported": 357,
+   "payload_energy_wh": 34.7
+  },
+  {
+   "orbit": "500 km / 6 deg equatorial-ish",
+   "site": "Mombasa",
+   "passes_per_day": 12.0,
+   "contact_min_per_day": 52.5,
+   "contact_range": "51-56",
+   "best_max_el": 89.7,
+   "msgs_per_day_per_beam": 1260,
+   "devices_supported": 315,
+   "payload_energy_wh": 30.6
+  }
+ ],
+ "closure": [
+  {
+   "el": 20,
+   "aperture_m2": 0.25,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 1294,
+   "margin_ul": 5.9,
+   "margin_dl": 2.5,
+   "footprint_km": 420
+  },
+  {
+   "el": 20,
+   "aperture_m2": 0.25,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 1294,
+   "margin_ul": -6.9,
+   "margin_dl": -8.5,
+   "footprint_km": 420
+  },
+  {
+   "el": 20,
+   "aperture_m2": 0.5,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 1294,
+   "margin_ul": 8.9,
+   "margin_dl": 5.5,
+   "footprint_km": 297
+  },
+  {
+   "el": 20,
+   "aperture_m2": 0.5,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 1294,
+   "margin_ul": -3.9,
+   "margin_dl": -5.4,
+   "footprint_km": 297
+  },
+  {
+   "el": 20,
+   "aperture_m2": 1.0,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 1294,
+   "margin_ul": 11.9,
+   "margin_dl": 8.5,
+   "footprint_km": 210
+  },
+  {
+   "el": 20,
+   "aperture_m2": 1.0,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 1294,
+   "margin_ul": -0.9,
+   "margin_dl": -2.4,
+   "footprint_km": 210
+  },
+  {
+   "el": 20,
+   "aperture_m2": 2.0,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 1294,
+   "margin_ul": 14.9,
+   "margin_dl": 11.5,
+   "footprint_km": 148
+  },
+  {
+   "el": 20,
+   "aperture_m2": 2.0,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 1294,
+   "margin_ul": 2.1,
+   "margin_dl": 0.6,
+   "footprint_km": 148
+  },
+  {
+   "el": 30,
+   "aperture_m2": 0.25,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 993,
+   "margin_ul": 9.0,
+   "margin_dl": 5.6,
+   "footprint_km": 322
+  },
+  {
+   "el": 30,
+   "aperture_m2": 0.25,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 993,
+   "margin_ul": -3.8,
+   "margin_dl": -5.4,
+   "footprint_km": 322
+  },
+  {
+   "el": 30,
+   "aperture_m2": 0.5,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 993,
+   "margin_ul": 12.0,
+   "margin_dl": 8.6,
+   "footprint_km": 228
+  },
+  {
+   "el": 30,
+   "aperture_m2": 0.5,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 993,
+   "margin_ul": -0.8,
+   "margin_dl": -2.3,
+   "footprint_km": 228
+  },
+  {
+   "el": 30,
+   "aperture_m2": 1.0,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 993,
+   "margin_ul": 15.0,
+   "margin_dl": 11.6,
+   "footprint_km": 161
+  },
+  {
+   "el": 30,
+   "aperture_m2": 1.0,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 993,
+   "margin_ul": 2.2,
+   "margin_dl": 0.7,
+   "footprint_km": 161
+  },
+  {
+   "el": 30,
+   "aperture_m2": 2.0,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 993,
+   "margin_ul": 18.0,
+   "margin_dl": 14.6,
+   "footprint_km": 114
+  },
+  {
+   "el": 30,
+   "aperture_m2": 2.0,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 993,
+   "margin_ul": 5.2,
+   "margin_dl": 3.7,
+   "footprint_km": 114
+  },
+  {
+   "el": 45,
+   "aperture_m2": 0.25,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 749,
+   "margin_ul": 12.4,
+   "margin_dl": 9.0,
+   "footprint_km": 243
+  },
+  {
+   "el": 45,
+   "aperture_m2": 0.25,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 749,
+   "margin_ul": -0.4,
+   "margin_dl": -1.9,
+   "footprint_km": 243
+  },
+  {
+   "el": 45,
+   "aperture_m2": 0.5,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 749,
+   "margin_ul": 15.4,
+   "margin_dl": 12.0,
+   "footprint_km": 172
+  },
+  {
+   "el": 45,
+   "aperture_m2": 0.5,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 749,
+   "margin_ul": 2.6,
+   "margin_dl": 1.1,
+   "footprint_km": 172
+  },
+  {
+   "el": 45,
+   "aperture_m2": 1.0,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 749,
+   "margin_ul": 18.5,
+   "margin_dl": 15.0,
+   "footprint_km": 122
+  },
+  {
+   "el": 45,
+   "aperture_m2": 1.0,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 749,
+   "margin_ul": 5.7,
+   "margin_dl": 4.1,
+   "footprint_km": 122
+  },
+  {
+   "el": 45,
+   "aperture_m2": 2.0,
+   "service": "NB-IoT (SMS/telemetry)",
+   "slant_km": 749,
+   "margin_ul": 21.5,
+   "margin_dl": 18.0,
+   "footprint_km": 86
+  },
+  {
+   "el": 45,
+   "aperture_m2": 2.0,
+   "service": "LTE-M style (1.4 MHz)",
+   "slant_km": 749,
+   "margin_ul": 8.7,
+   "margin_dl": 7.1,
+   "footprint_km": 86
+  }
+ ]
+}
